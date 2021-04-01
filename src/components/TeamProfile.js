@@ -3,7 +3,7 @@ import { createUseStyles } from 'react-jss';
 import classnames from 'classnames';
 
 const useStyles = createUseStyles({
-    person: {
+      teamProfile: {
         alignItems: 'center',
         display: 'flex',
         flexDirection: 'column',
@@ -81,7 +81,7 @@ const useStyles = createUseStyles({
       const TeamProfile = (props) => {
         const classes = useStyles()
         return (
-            <div className={classes.person}>
+            <div className={classes.teamProfile}>
               <div className={classes.container}>
                 <div className={classes.containerInner}>
                   <img

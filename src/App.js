@@ -3,6 +3,7 @@ import axios from 'axios';
 import CalloutCard from './components/CalloutCard'
 import CaseStudyCard from './components/CaseStudyCard'
 import TeamProfile from './components/TeamProfile'
+import TimeLine from './components/TimeLine'
 import backupUser from './components/backupUser.png'
 function App() {
   const [data, setData] = useState([]);
@@ -59,6 +60,8 @@ function App() {
             />
         )
       })}
+
+      <TimeLine/>
     </div>
   );
 }
